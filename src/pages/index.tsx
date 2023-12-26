@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '@/Components/GeneralComponents/Header'
-// import wall from '../../public/images/wall.webp';
+import wall from '../../public/images/wall.webp';
 import SlideShow from '@/Components/GeneralComponents/SlideShow';
 
 
@@ -16,7 +16,7 @@ export default function Home() {
         {/* FIRST MAIN SECTION */}
 
 
-        {/* <div className='flex flex-row md:flex-col-reverse w-full'>
+        <div className='flex flex-row md:flex-col-reverse w-full'>
 
           <div className='w-6/12 md:w-full md:h-[55%] md:mx-auto relative contrast-[1.1]'>
             <Image layout={'responsive'} alt={'Neon Hub'} src={wall} />
@@ -41,7 +41,7 @@ export default function Home() {
           <div className='w-6/12 md:w-full flex justify-center pt-[3rem] md:pt-[15rem] items-center h-[100%] md:h-[45%]'>
             <SlideShow data={[]} />
           </div>
-        </div> */}
+        </div>
 
 
         {/* FIRST MAIN SECTION */}

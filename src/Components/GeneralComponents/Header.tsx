@@ -16,7 +16,7 @@ const Header = () => {
                 </div>
 
 
-                <div className='w-4/12 text-[gray]  font-[Vazir] text-[1.25rem] flex flex-row items-center justify-center '>
+                <div className='w-4/12 text-[gray] md:hidden font-[Vazir] text-[1.25rem] flex flex-row items-center justify-center '>
                     <button className='w-3/12 h-[70%] hover:text-[#ffffff] transition-all duration-200'>دسته</button>
                     <button className='w-3/12 h-[70%] hover:text-[#ffffff] transition-all duration-200'>محصولات</button>
                     <button className='w-3/12 h-[70%] hover:text-[#ffffff] transition-all duration-200'>درباره ما</button>
